@@ -10,13 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Itask task = new TaskTickets();
+            Itask task = new TaskString();
             Tester tester = new Tester(
                 task,
-                @"E:\Загрузка\A01_Счастливые_билеты-1801-057a77\1.Tickets"
+                @"E:\Загрузка\A01_Счастливые_билеты-1801-057a77\0.String"
                 );
             tester.RunTests();
             Console.ReadKey();
         }
     }
-}
